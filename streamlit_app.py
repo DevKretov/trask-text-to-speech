@@ -31,7 +31,7 @@ def audiorec_demo_app():
     st_audiorec = components.declare_component("st_audiorec", path=build_dir)
 
     # TITLE and Creator information
-    st.title('Trask Text-to-Speech demo app')
+    st.title('Trask Speech-to-Text demo app')
     st.markdown('Made for a show-off of the audio file loading and text extraction')
     st.write('\n\n')
 
